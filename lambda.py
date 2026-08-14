@@ -35,3 +35,7 @@ print(sort_price)
 
 alpha_text = sorted(alpha, key=lambda v : v)
 print(alpha_text)
+
+# more lambda example
+check_size = lambda ounces :"large" if ounces >= 16 else "small"
+print(check_size(16))
